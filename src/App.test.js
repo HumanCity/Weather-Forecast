@@ -1,8 +1,12 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from 'react';
+import WeatherForecast from './WeatherForecast'; // import komponen baru
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+function App() {
+  return (
+    <div>
+      <WeatherForecast />
+    </div>
+  );
+}
+
+export default App;
