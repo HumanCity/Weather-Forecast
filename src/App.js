@@ -1,10 +1,10 @@
 import React from 'react';
-import WeatherForecast from './WeatherForecast'; // import komponen baru
+import UserTable from './UserTable'; // Import komponen UserTable
 
 function App() {
   return (
     <div>
-      <WeatherForecast />
+      <UserTable />
     </div>
   );
 }
