@@ -1,10 +1,10 @@
 import React from 'react';
-import UserTable from './UserTable'; // Import komponen UserTable
+import UserRegistrationChart from './UserChart';
 
 function App() {
   return (
     <div>
-      <UserTable />
+      <UserRegistrationChart />
     </div>
   );
 }
