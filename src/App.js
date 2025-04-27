@@ -1,10 +1,10 @@
 import React from 'react';
-import UserRegistrationChart from './UserChart';
+import SentimentForm from './SentimentForm'; // Import komponen form
 
 function App() {
   return (
     <div>
-      <UserRegistrationChart />
+      <SentimentForm />
     </div>
   );
 }
